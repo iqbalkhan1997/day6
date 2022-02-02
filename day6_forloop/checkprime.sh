@@ -6,11 +6,9 @@ do
 fr=$(( $a % $i ));
 	if [ $fr -eq 0 ];
 	then
-	echo $a is not a prime number
+	echo "$a is not a prime number";
 	exit;
 fi;
-#else
 done
-	echo $a is a prime number
-#done
+	echo "$a is a prime number";
 
